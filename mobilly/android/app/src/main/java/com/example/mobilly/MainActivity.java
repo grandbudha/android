@@ -119,10 +119,6 @@ public class MainActivity extends FlutterActivity {
       if((grantResults.length == 0) ||(grantResults[0]) != PackageManager.PERMISSION_GRANTED){
         resultString = notEnoughPermissionString;
       }
-      /* Get the imput venue results */
-      else {
-        getVenueResults();
-      }
     }
   }// end
 
